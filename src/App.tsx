@@ -1,11 +1,6 @@
-
 import {useState} from "react";
 
-
-
 function Square({ value, onboxClick }: { value: string | null; onboxClick: () => void }) {
-  // const [value, setValue] = useState<string | null>(null);
-  
   return (
     <>
       <button className="border square w-15 h-15 m-2 bg-white hover:bg-gray-100" onClick={onboxClick}>{value}</button>
@@ -23,15 +18,14 @@ export default function App() {
     }
     const newValue = value.slice();
     newValue[i] = op;               
-    setValue(newValue);             // Update board state
-
-    // 4. Flip the turn
+    setValue(newValue);
     if (op === "X") {
       setOp("O");
     } else {
       setOp("X");
     }
   }
+
   return (
     <section className=" flex flex-col justify-center items-center h-screen">
       <div className="flex flex-col justify-center items-center bg-green-200 h-100 w-100 m-10 p-10 rounded-md shadow-md">

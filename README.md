@@ -2,10 +2,14 @@
 
 A sleek, performant implementation of the classic Tic-Tac-Toe game built with **React**, **TypeScript**, and **Tailwind CSS**. 
 
-![Project Screenshot](/Screenshot.png)
+## Project Screenshot
+<img width="746" height="841" alt="Screenshot" src="https://github.com/user-attachments/assets/6cfba4d0-0f14-47bc-a57d-ed9c5a1e2f7e" />
 ## Live Demo
 
-![View Live Demo](/Screen_Recording.mp4)
+
+https://github.com/user-attachments/assets/7a2e107d-37bc-4cea-9c7c-2ce5a03291fc
+
+
 
 ## Tech Stack
 

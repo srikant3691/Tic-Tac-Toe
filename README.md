@@ -5,7 +5,7 @@ A sleek, performant implementation of the classic Tic-Tac-Toe game built with **
 ![Project Screenshot](/Screenshot.png)
 ## Live Demo
 
-[View Live Demo](/Screen_Recording.mp4)
+![View Live Demo](/Screen_Recording.mp4)
 
 ## Tech Stack
 
